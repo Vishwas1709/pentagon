@@ -7,3 +7,8 @@ print(id(a))
 print(id(b))
 print(id(d))
 print(id(f))
+print(type(a))
+h=11.5
+print(type(h))
+j="Vishwas"
+print(type(j))
