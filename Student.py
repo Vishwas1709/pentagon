@@ -3,6 +3,8 @@ class Student:
         self.name="Vishwas"
         self.usn=123
         self.age=21
+    def eat(self):
+        print("Vishwas Is eating")
     def study(self):
         print("Vishwas Is not studing")
 s1=Student()
