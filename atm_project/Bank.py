@@ -15,12 +15,19 @@ class Account:
             self.balance -= amount
 
     def setPin (self):
-        self.pin = int(input("Set Ypur Pin "))
-        
+        self.pin = int(input("Set Your Pin "))
+
     def verifyPin(self):
         entered_pin= int(input("Enter Your Pin "))
         if entered_pin == self.pin:
             return True
         return False
+    def changePin(self):
+        changed_pin =int (input("Enter differnt pin"))
+        if self.pin != changed_pin:
+            self.pin= changed_pin
+        else:
+            print("Enter the differnt pin ")
+
 
         

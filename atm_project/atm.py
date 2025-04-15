@@ -27,7 +27,7 @@ while (True):
         1. Deposit
         2. Withdraw
         3. Mini Statement
-        4. Exit
+        4. Change Pin
         """
         )
 
@@ -66,4 +66,7 @@ while (True):
             for transaction in a1.transaction:
                 print(transaction)
             print("Available Balance : ",a1.balance)
+        if option == 4:
+                a1.changePin
+            
         
