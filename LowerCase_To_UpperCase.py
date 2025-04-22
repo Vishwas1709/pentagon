@@ -5,8 +5,8 @@ newstr = ""
 while (i<=len(str)-1):
     data=str[i]
     ascii = ord(data)
-    if(ascii >= 65 and ascii <= 90):
-        newascii = ascii +32
+    if(ascii >= 97 and ascii <= 122):
+        newascii = ascii - 32
         convchar = chr(newascii)
         newstr = newstr + convchar
     else:
@@ -14,6 +14,6 @@ while (i<=len(str)-1):
     i = i + 1
 print("The converted string is: ", newstr)
 
-#Inbild function for Upper case to lower case
+ # Inbuild function for Lower case to upper case
 # str = "Hello World"
-# print(str.lower())
+# print(str.upper())

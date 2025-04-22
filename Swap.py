@@ -1,5 +1,4 @@
-print("Enter the string: ")
-str = input()
+str=input("Enter the string: ")
 i=0
 newstr = ""
 while (i<=len(str)-1):
@@ -10,10 +9,15 @@ while (i<=len(str)-1):
         convchar = chr(newascii)
         newstr = newstr + convchar
     else:
-        newstr = newstr + data
+        newascii = ascii - 32
+        convchar = chr(newascii)
+        newstr = newstr + convchar
+    
     i = i + 1
 print("The converted string is: ", newstr)
 
-#Inbild function for Upper case to lower case
+
+# Inbuild function for swapping case
 # str = "Hello World"
-# print(str.lower())
+# print(str.swapcase())
+# Inbuild function for swapping case
