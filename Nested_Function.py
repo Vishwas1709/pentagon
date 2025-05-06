@@ -32,3 +32,15 @@
 #     #print("From fun1 b",b)  # This will raise an error because b is not defined in this scope
 # fun1()
 
+#Control flow of nested functions
+
+def outer():
+    print("I am outer function")
+    def inner():
+        print("Entering inner function")
+        print("Processing")
+        print("Leaving inner function")
+    print("calling inner function")
+    inner()  # Call the inner function
+outer()
+print("End of program")
