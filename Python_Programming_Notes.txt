@@ -1,0 +1,89 @@
+---------------------------28-05-2025
+
+***************Write a program to display all the factors of the given numbers
+
+n=int(input("Enter the number"))
+for i in range(1,n+1):
+    if n%i==0:
+        print(i)
+
+****************count the number of factors
+
+n=int(input("Enter the number"))
+count=0
+for i in range(1,n+1):
+    if n%i==0:
+        print(i)
+        count+=1
+print("Total number of factors:", count)
+
+******************Total cycle 
+
+n=int(input("Enter the number"))
+count=0
+total=0
+for i in range(1,n+1):
+    total+=1
+    if n%i==0:
+        print(i)
+        count+=1
+print("Total number of factors:", count)
+print("Total Cycles:", total)
+
+-----------------------11:47 02-06-2025
+
+******************# efficiency version to find factors
+
+******************# using the while loop 
+
+n=int(input("Enter the number "))
+count=0
+total=0
+i=1
+while i * i <= n:
+    total+=1
+    if n % i == 0:
+        print(i, end=" ")
+        count += 1
+        if i != n//i:
+            print(n//i, end=" ")
+            count += 1
+    i += 1
+print("\nTotal number of factors:", count)
+print("\nTotal Cycles:", total)
+
+
+-----------------------------11:06 03-06-2025
+
+****************************** write a program to check whether the given number is prime number or not 
+
+n=int(input("Enter the number "))
+count=0
+total=0
+i=1
+while i * i <= n:
+    total+=1
+    if n % i == 0:
+        print(i,end=" ")
+        count += 1
+        if i != n//i:
+            print(n//i,end=" ")
+            count += 1
+    i += 1
+if count == 2:
+    print("\nThe number is prime.")
+print("\nTotal number of factors:", count)
+print("\nTotal Cycles:", total)
+
+
+***************** #inbuild function
+
+n=int(input("Enter the number "))
+from sympy import isprime
+prime=isprime(n) 
+if prime:
+    print(f"{n} is a prime number.")
+else:
+    print(f"{n} is not a prime number.")
+
+        
