@@ -46,11 +46,17 @@ else:
 # print("The HCF or GCD of", a, "and", b, "is:", hcf)
 
 # write a program to display the lcm of two numbers
+
+def lcm_loop(x, y):
+    if x > y:
+        greater = x
+    else:
+        greater = y
+        while True:
+            if greater % x == 0 and greater % y == 0:
+                return greater
+            greater += 1
 a = int(input("Enter the first number: "))
 b = int(input("Enter the second number: "))
-if a > b:
-    a, b = b, a
-for i in range(1, b + 1):
-    if (a * i) % b == 0:
-        lcm = a * i
+lcm = lcm_loop(a, b)
 print("The LCM of", a, "and", b, "is:", lcm)
