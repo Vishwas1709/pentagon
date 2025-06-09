@@ -11,7 +11,6 @@
 def dn(n):
     if n<=0:
         return 
-    print(n)
     dn(n-1)
     print(n)
 n=int(input("Enter a number: "))
