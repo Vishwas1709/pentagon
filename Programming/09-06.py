@@ -9,7 +9,7 @@ n=int(input("Enter a number"))
 res=countdigit(n,0)
 print(res)
 '''
-# Count the number of digits in a number using recursion
+
 
 def countdigit(n,count):
     if n<=0:
@@ -29,8 +29,9 @@ n=int(input("Enter a number: "))
 pow=countdigit(n,0)
 temp=n
 asn=0
-if isasn(n,pow,asn,temp):
+flag=isasn(n,pow,asn,temp)
+if flag:
     print(f"{n} is an Armstrong number")
 else:
     print(f"{n} is not an Armstrong number")
-    
+# Vishwas Chandra M C  
