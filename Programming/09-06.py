@@ -34,4 +34,4 @@ if flag:
     print(f"{n} is an Armstrong number")
 else:
     print(f"{n} is not an Armstrong number")
-# Vishwas Chandra M C  
+# Vishwas Chandra M C
