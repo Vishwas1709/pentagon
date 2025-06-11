@@ -43,3 +43,4 @@ data1=fptr1.write(data) # Write the binary data to the new file
 fptr.close() # Close the original file
 fptr1.close() # Close the new file
 print("File copied successfully")
+
