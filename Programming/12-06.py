@@ -27,11 +27,21 @@
 
 # Factorial using recursion
 
-def fact(n):
+# def fact(n):
+#     if n<=1:
+#         return n
+#     return n * fact(n-1)
+# n=int(input("Enter the number"))
+# res=fact(n)
+# print(f"Factorial of {n} is {res}")
+
+# n naturals sum using recursion
+def sum(n):
     if n<=1:
         return n
-    return n * fact(n-1)
-n=int(input("Enter the number"))
-res=fact(n)
-print(f"Factorial of {n} is {res}")
+    return n + sum(n-1)
+n = int(input("Enter the number: "))
+res = sum(n)
+print(f"Sum of first {n} natural numbers is {res}")
+# Sum of digits using recursion
 
