@@ -66,7 +66,6 @@ def selection_sort(arr):
         arr[currentmaxindex], arr[n-1-i] = arr[n-1-i], arr[currentmaxindex]#n-1-i is the actual_index 
 
 
-
 def selection_sort_desending(arr):
     n=len(arr)
     for i in range(0,n-1):
@@ -77,6 +76,7 @@ def selection_sort_desending(arr):
                 min=arr[j]
                 currentminindex=j
         arr[currentminindex], arr[n-1-i] = arr[n-1-i], arr[currentminindex]#n-1-i is the actual_index
+
 selection_sort(arr)
 print("Sorted array:",arr)
 selection_sort_desending(arr)
