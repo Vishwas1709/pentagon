@@ -17,6 +17,8 @@ def reverse_list(i,j,arr):
 
 def rotate_left(arr,k):
     n=len(arr)
+    if k >= n:
+        k = k % n
     reverse_list(0,(k-1),arr)
     reverse_list(k,(n-1),arr)
     reverse_list(0,(n-1),arr)
