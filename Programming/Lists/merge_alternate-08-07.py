@@ -13,7 +13,7 @@ print("Enter values into second list")
 nums2=createlist()
 print("Original array 2:", nums2)
 
-def merge_alternate(numss1,nums2):
+def merge_alternate(nums1,nums2):
     res=[]
     n1=len(nums1)
     n2=len(nums2)
