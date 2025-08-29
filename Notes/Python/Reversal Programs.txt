@@ -1,0 +1,58 @@
+[Note: No in-built's allowed]
+
+1) Reverse String 4  --> Hackerrank
+https://www.hackerrank.com/contests/test-545/challenges/reverse-string-4
+
+2) STRING REVERSE --> Hackerrank
+https://www.hackerrank.com/contests/ngcjcjccg/challenges/string-reverse
+
+3) Reverse Vowels 2 --> Hackerrank
+https://www.hackerrank.com/contests/dce-2024-test6/challenges/reverse-vowels-2-1
+
+4) String Reverse Words --> Hackerrank
+https://www.hackerrank.com/contests/lpdwarka2016/challenges/string-reverse-words
+
+5) Capitalize! --> Hackerrank
+https://www.hackerrank.com/challenges/capitalize/problem
+
+6) 344. Reverse String --> Leetcode
+https://leetcode.com/problems/reverse-string/description/
+
+7) 541. Reverse String II --> Leetcode
+https://leetcode.com/problems/reverse-string-ii/description/
+
+8) 557. Reverse Words in a String III --> Leetcode
+https://leetcode.com/problems/reverse-words-in-a-string-iii/description/
+
+9) 151. Reverse Words in a String --> Leetcode
+https://leetcode.com/problems/reverse-words-in-a-string/description/
+
+10) 2129. Capitalize the Title --> Leetcode
+https://leetcode.com/problems/capitalize-the-title/description/
+
+11) WAP to place a word in a given sentence by a new word.
+I/P:
+Enter a sentence: roses are blue apples are blue
+Enter the word to be replaced : blue
+Enter the new word : red
+O/P:
+roses are red apples are red
+
+12) Array Reversal --> Hackerrank
+https://www.hackerrank.com/challenges/reverse-array-c/problem
+
+13) WAP to return a list consisting of palindromic numbers in
+the input list.
+I/P:
+l1 = [1, 32, 131, 1001, 18, 25]
+O/P:
+[1, 131, 1001]
+
+
+
+
+
+
+
+
+

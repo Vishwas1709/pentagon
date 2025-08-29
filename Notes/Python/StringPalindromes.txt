@@ -1,0 +1,59 @@
+1. WAP to display all the palindromic words 
+in a given sentence.
+
+	I/P:
+		Madam Mrs. Lee teaches malayalam	
+	O/P:
+		Madam malayalam
+		
+2. WAP to display the longest palindromic word 
+in a given sentence with their length.
+   
+	I/P:
+		Madam Mrs. Lee teaches malayalam
+	O/P:
+		malayalam 9
+		
+3. WAP to display the shortest palindromic word in 
+a given sentence with their length.
+   
+	I/P:
+		Madam Mrs. Lee teaches malayalam
+		
+	O/P:
+		Madam 5
+	
+4. WAP to count the highest number of continuous 
+palindromic words available in a given sentence
+	
+	I/P:
+		madam malayalam wow are adjective words 
+		malayalam kannada madam malayalam
+		
+	O/P:
+		3
+		
+5. WAP to display the count of occurences of each
+character in a given string(without using 
+dictionary)
+
+Leetcode:
+
+https://leetcode.com/problems/valid-palindrome-ii/description/
+https://leetcode.com/problems/valid-palindrome/
+https://leetcode.com/problems/palindrome-number/description/
+https://www.hackerrank.com/challenges/palindromes/problem
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+

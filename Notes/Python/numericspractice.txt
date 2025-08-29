@@ -1,0 +1,13 @@
+WAP to print all the prime number's of a defined range.
+WAP to print all the prime and non-prime number's of a defined 
+range seperateley.
+WAP to print first "n" prime numbers.
+===========================================================
+WAP to print all the arm strong numbers of a defined range
+WAP to print all the asn and non-asn number's of a defined 
+range seperateley.
+WAP to print first "n" asn numbers.
+===========================================================
+WAP to print the difference of sum and product of first "n"
+natural numbers without using any fromula using customized
+function for difference.
