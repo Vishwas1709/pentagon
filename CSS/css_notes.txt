@@ -1,0 +1,22 @@
+CSS: 
+Cascading style sheet 
+It is a style sheet which is used to describe the looks of HTML elements.
+By using CSS we can give styles for HTML elements.
+The current version of CSS is CSS3
+The CSS has been invented by "Hakon Wium Lee"
+
+In Three different ways we can apply CSS to the HTML documents.
+1. inline CSS  --- High Priority
+2. internal CSS
+3. External CSS
+
+-----Inline CSS
+
+* By using this way we can add style for HTML elements using style attribute
+
+Syntax:
+<tagname style="property:value"> </tagname>
+
+Example : <h1 style="color:red">Welcome </h1>
+
+

@@ -1,0 +1,56 @@
+Pre Requirements:
+
+1. HTML
+2. CSS
+3. JAVASCRIPT
+
+What is React JS?
+* It is a JavaScript Library and open source for build in user interface 
+* react is the components based 
+* components based means user interface /contains header, navbar, aside ,main ,footer 
+* By using the react js we can build the only frontend part in an application
+* WE can reuse the components
+* The working of the react application is faster while compare to other application 
+* React js is a single page application 
+
+History of react JS ?
+
+* Developed By facebook in 2011
+* The person is Jordan Walke
+* Competitor of reactjs is Angular and Vue JS 
+
+--What is Library?
+
+It is collection of predefined function or classes or properties with some rules.
+
+--What is Framework?
+
+It is a collection of libraries with some straight rules
+
+--What is the purpose of react JS?
+
+It is used to create user interface
+By using react js we can build single page web application
+It is used to create very fast and user interactive web page.
+It is used to crate static and dynamic webpages.
+
+Frontend application
+
+* UI
+* Data Management
+* Network Call 
+* Routing
+
+-- TO create frontend application what are the libraries are used
+
+UI+ other libraries (axios, usestate,react+routerdom)
+
+
+
+
+
+
+ 
+
+
+

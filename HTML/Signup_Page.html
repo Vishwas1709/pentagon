@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+</head>
+<body>
+    <center>
+    <h1>Sign UP page</h1>
+    </center>
+    <form>
+        <fieldset>
+            <legend>Sign up</legend>
+            <label for="firstname">First name :</label> <input type="text" id="firstname"> &nbsp; &nbsp;
+            <label for="lastname">Last name :</label> <input type="text" id="lastname"> <br><br>
+            <label for="email">Email :</label> <input type="email" id="email"> &nbsp; &nbsp;
+            <label for="phonenumber">Phone Number :</label> <input type="tel" id="phonenumber"> <br><br>
+            <label for="DOB">DOB :</label> <input type="date" id="DOB"> &nbsp; &nbsp;
+            <label>Gender</label> <input type="radio" name="gender">Male <input type="radio" name="gender">Female <br><br>
+            <label for="address">Address</label><textarea id="address" row="8" cols="15"></textarea> &nbsp; &nbsp;
+            <label for="city">City</label> <select id="city" name="city">
+                <option>Banglore</option>
+                <option>Mysore</option>
+                <option>Mandya</option> 
+            </select> &nbsp; &nbsp;
+            
+            <label for="state">State</label> <select id="state" name="state">
+                <option>Karnataka</option>
+                <option>Kerala</option>
+                <option>TamilNadu</option>
+            </select> <br><br>
+
+            <label for="pincode">Pincode</label> <input type="number" maxlength="6" id="pincode"> &nbsp; &nbsp;
+            <label for="loadimg">Load Image</label> <input type="file" id="loadimg"> <br><br>
+            <label for="password">Password :</label> <input type="password" id="password"> &nbsp; &nbsp;
+            <label for="conformpassword">Conform Password</label> <input type="password" id="conformpassword">
+            <br><br>
+
+            <input type="checkbox" id="checkbox"><label>Accept Terms and Conditon </label> <br><br>
+            <button>Signup</button>
+            <p>Already Have a account <a href="./login.html">Click Here</a> for login </p>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
