@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        display: none;
+      }
+
+      nav {
+        background-color: deeppink;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      /* phone display */
+      @media screen and (max-width: 400px) {
+        nav {
+          background-color: powderblue;
+        }
+        h3 {
+          display: none;
+        }
+        img {
+          display: block;
+        }
+      }
+
+      /* tablet display */
+      @media screen and (min-width: 401px) and (max-width: 600px) {
+        nav {
+          background-color: yellow;
+        }
+      }
+
+      /* laptop display */
+      @media screen and (min-width: 601px) and (max-width: 700px) {
+        nav {
+          background-color: green;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img
+        height="100px"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png"
+        alt=""
+      />
+      <h3>data</h3>
+      <h3>data</h3>
+      <h3>data</h3>
+      <h3>data</h3>
+      <h3>data</h3>
+      <h3>data</h3>
+      <h3>data</h3>
+      <h3>data</h3>
+      <h3>data</h3>
+    </nav>
+  </body>
+</html>

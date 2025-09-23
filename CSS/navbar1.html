@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar{
+            display:flex;
+            justify-content: space-between;
+            background-color: black;
+            margin: 10px;
+         
+
+        }
+        #brand{
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: black;
+            width: 600px;
+        }
+        #search{
+            display:flex;
+            width: 300px;
+        }
+        
+        h2,h3{
+            color:white;
+        }
+        #search,button{
+        border-radius: 5px;
+        margin: 10px;
+        }
+        #about,#product{
+            color:rgb(221, 212, 176)
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+    <div id="brand">
+        <h2>Brand</h2>
+        <h3>Home</h3>
+        <h3 id="about">About</h3>
+        <h3 id="product">Products</h3>
+
+    </div>
+    <div id="search">
+        <input type="text" placeholder="Search" id="search">
+        <button>Search</button>
+    </div>
+    </div>
+</body>
+</html>
